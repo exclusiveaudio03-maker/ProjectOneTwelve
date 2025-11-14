@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid_hud_hp"]
+[node name="HUD" type="CanvasLayer"]
+[node name="Control" type="Control" parent="HUD"]
+anchor_right=1.0
+anchor_bottom=1.0
+
+[node name="PlayerHP" type="ProgressBar" parent="Control"]
+anchor_left = 0.1
+anchor_top = 0.05
+anchor_right = 0.9
+anchor_bottom = 0.12
+max_value = 100
+value = 100

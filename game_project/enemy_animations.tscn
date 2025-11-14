@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid_enemy_anim"]
+[node name="EnemyAnimations" type="Node3D"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[timeline name="idle" length="1.0"]
+[timeline name="hit" length="0.4"]

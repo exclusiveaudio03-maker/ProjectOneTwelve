@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid_enemy_hp"]
+[node name="EnemyHP" type="ProgressBar"]
+anchor_left = 0.3
+anchor_right = 0.7
+anchor_top = 0.0
+anchor_bottom = 0.05
+max_value = 50
+value = 50
+fg_color = Color(1,0,0)

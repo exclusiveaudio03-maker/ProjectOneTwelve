@@ -1,0 +1,12 @@
+; Godot Engine configuration file v4
+[application]
+config/name="Prototype_Zero_Twelve_Demo"
+config/description="Portrait mobile demo - tutorial combat + loading screen"
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/width=1080
+window/size/height=1920
+window/stretch/mode="2d"
+window/stretch/aspect="keep_height"
+window/handheld/force_pixel_ratio=0.0

@@ -1,0 +1,28 @@
+{
+  "id": "cutscene_data_shard",
+  "scenes": [
+    {
+      "type": "camera",
+      "desc": "Extraction screen hums. Nanite filaments glow."
+    },
+    {
+      "type": "dialog",
+      "speaker": "AI",
+      "text": "Nanite-format archive detected. Extraction starting."
+    },
+    {
+      "type": "dialog",
+      "speaker": "The Subject",
+      "text": "So I wasn\u2019t a mistake. I was made like you."
+    },
+    {
+      "type": "dialog",
+      "speaker": "Marco",
+      "text": "They made us... and they threw me away."
+    },
+    {
+      "type": "action",
+      "desc": "Playback shows Overseer ordering disposal."
+    }
+  ]
+}

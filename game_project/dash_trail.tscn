@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid_dash"]
+[ext_resource path="res://assets/vfx/hit_flash.tres" type="Resource" id=1]
+[node name="DashTrail" type="Node3D"]
+[node name="Particles" type="GPUParticles3D" parent="DashTrail"]
+process_material = ExtResource( 1 )
+amount = 12
+emitting = false

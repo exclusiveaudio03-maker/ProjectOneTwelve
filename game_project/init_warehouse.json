@@ -1,0 +1,27 @@
+{
+  "id": "cutscene_init_warehouse",
+  "scenes": [
+    {
+      "type": "camera",
+      "desc": "Flickering warehouse light, rain outside."
+    },
+    {
+      "type": "dialog",
+      "speaker": "Marco",
+      "text": "D-Don't... please don't take me back. I wasn't meant to survive."
+    },
+    {
+      "type": "dialog",
+      "speaker": "The Subject",
+      "text": "I am not your handler."
+    },
+    {
+      "type": "system",
+      "text": "AI: Blood analysis: Prototype 12. Compatibility: 12%. Stabilize."
+    },
+    {
+      "type": "action",
+      "desc": "Escort begins. Spawn goons."
+    }
+  ]
+}

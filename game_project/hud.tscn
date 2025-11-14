@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid_hud"]
+[ext_resource path="res://ui/hud.gd" type="Script" id=1]
+[node name="HUD" type="CanvasLayer"]
+canvas_transform = Transform2D( 1, 0, 0, 0, 1, 0, 0, 0 )
+[node name="Control" type="Control" parent="HUD"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+[node name="Buttons" type="HBoxContainer" parent="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 0.0
+margin_bottom = 0.0
+rect_min_size = Vector2( 0, 160 )
+[node name="LightAttack" type="TouchScreenButton" parent="Buttons"]
+texture_normal = null
+rect_min_size = Vector2( 160, 140 )
+[node name="HeavyAttack" type="TouchScreenButton" parent="Buttons"]
+texture_normal = null
+rect_min_size = Vector2( 160, 140 )
+[node name="Dodge" type="TouchScreenButton" parent="Buttons"]
+texture_normal = null
+rect_min_size = Vector2( 160, 140 )
+[node name="Finisher" type="TouchScreenButton" parent="Buttons"]
+texture_normal = null
+rect_min_size = Vector2( 160, 140 )

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid_fire_vfx"]
+[ext_resource path="res://assets/vfx/fire_vent_particles.tres" type="Resource" id=1]
+[node name="FireVentVFX" type="Node3D"]
+[node name="Particles" type="GPUParticles3D" parent="FireVentVFX"]
+process_material = ExtResource( 1 )
+amount = 80
+emitting = true

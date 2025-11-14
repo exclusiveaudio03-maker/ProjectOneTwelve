@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid_electric_vfx"]
+[ext_resource path="res://assets/vfx/electric_arc_particles.tres" type="Resource" id=1]
+[node name="ElectricArc" type="Node3D"]
+[node name="Particles" type="GPUParticles3D" parent="ElectricArc"]
+process_material = ExtResource( 1 )
+amount = 20
+emitting = false

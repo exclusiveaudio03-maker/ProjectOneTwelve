@@ -1,0 +1,26 @@
+{
+  "id": "mission_initiation_protocol",
+  "title": "Initiation Protocol",
+  "description": "Tutorial mission - Escort and basic combat.",
+  "objectives": [
+    {
+      "id": "o1",
+      "type": "escort",
+      "desc": "Escort Prototype 12 out of the warehouse."
+    },
+    {
+      "id": "o2",
+      "type": "combat",
+      "desc": "Defeat the goons."
+    },
+    {
+      "id": "o3",
+      "type": "stabilize",
+      "desc": "Stabilize Prototype 12."
+    }
+  ],
+  "rewards": {
+    "xp": 25
+  },
+  "cutscene": "res://data/cutscenes/init_warehouse.json"
+}

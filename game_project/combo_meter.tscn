@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid_combo"]
+[node name="ComboMeter" type="Label"]
+anchor_left = 0.75
+anchor_top = 0.1
+text = "Combo: 0"
