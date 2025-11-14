@@ -1,0 +1,15 @@
+# Godot ignoring...
+.import/
+export.cfg
+export_presets.cfg
+.editor_settings-*
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+ios/build/
+ios/export/
+*.ipa
+*.xcworkspace
+*.xcodeproj/
+DerivedData/
