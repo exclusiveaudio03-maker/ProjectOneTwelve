@@ -14,14 +14,14 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Download and Setup Godot
-        uses: firebelley/godot-export@v4
+        uses: firebelley/godot-export@v4.0
         with:
           godot-version: "4"
           export-preset: "HTML5"
           cache: true
 
       - name: Export HTML5
-        uses: firebelley/godot-export@v4
+        uses: firebelley/godot-export@v4.0
         with:
           godot-version: "4"
           export-preset: "HTML5"
