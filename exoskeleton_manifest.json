@@ -1,0 +1,15 @@
+{
+  "project_name": "Prototype_Zero_Twelve_Master_Exoskeleton",
+  "description": "Full Exoskeleton + Game Project + Repo scaffold. Contains Godot 4 demo, batches 1-7, VFX, cutscenes, missions, and repo scaffold for GitHub.",
+  "entry_point": "src/game_project/project.godot (main scene: scenes/main.tscn)",
+  "batches_included": [
+    "Batch 1: animations placeholders, boss scene, skill tree, cutscene manager, SFX placeholders",
+    "Batch 2: animation blending scripts, Boss AI, HUD health bars, BGM placeholder",
+    "Batch 3: Enemy HP Bars, Dodge I-Frames, Boss Telegraphs, Combo Meter, Mission Manager, Cutscene UI, Game Over Screen",
+    "Batch 4: Camera shake, hit-pause, enhanced enemy AI, parry mechanic, stamina system, finisher cinematic, NPC generator, hazard area, lore & cutscenes integrated",
+    "Batch 5: Gameplay integration, VFX placeholders, NPC scene and spawner updates, hazard variants",
+    "Batch 6: VFX particles and scenes (spark, electric arc, fire vent, hit flash), dash trail scene",
+    "Batch 7: Cutscene manager linking, auto-play mission cutscenes"
+  ],
+  "notes": "Open the project in Godot 4. Copy this repo to your GitHub. For iOS export, follow docs/iOS_BUILD.md."
+}
